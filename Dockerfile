@@ -8,7 +8,7 @@ RUN rm -rf /usr/share/nginx/html/*
 COPY ./ /usr/share/nginx/html/
 
 # Expose port 80 for the web server
-EXPOSE 80
+EXPOSE 90
 
 # Start nginx when the container runs
 CMD ["nginx", "-g", "daemon off;"]
